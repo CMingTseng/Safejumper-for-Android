@@ -2,8 +2,6 @@
  * Copyleft (/c) MMXV, Proxy.sh
  * Distributed under the GNU GPL v2
  */
-import com.android.builder.model.ProductFlavor
-
 apply plugin: 'com.android.application'
 
 apply plugin: 'checkstyle'
@@ -117,12 +115,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-}
-
-repositories {
-    jcenter()
-    maven { url "https://jitpack.io" }
-    maven { url 'https://maven.google.com' }
 }
 
 dependencies {
